@@ -1,6 +1,6 @@
 <?php
 
-require_once "./phpMailer/class.phpmailer.php";
+require_once "./php_mailer/class.phpmailer.php";
 $mail = new PHPMailer();
 		$mail = new PHPMailer(); // create a new object
 		$mail->IsSMTP(); // enable SMTP
