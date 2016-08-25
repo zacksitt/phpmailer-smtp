@@ -12,8 +12,8 @@ $mail = new PHPMailer();
 		$mail->IsHTML(true);
 		$mail->Username = "user name";// ur gmail
 		$mail->Password = "Password"; // ur gmail password
-		$mail->SetFrom("myoothu.jva@gmail.com");
-		$mail->AddAddress("aag.myothu@gmail.com", "Josh Adams");
+		$mail->SetFrom("from email");
+		$mail->AddAddress("to email", "Josh Adams");
 	
 		$mail->Subject = "Here is the subject";
 		$mail->Body    = "This is the HTML message body <b>in bold!</b>";
